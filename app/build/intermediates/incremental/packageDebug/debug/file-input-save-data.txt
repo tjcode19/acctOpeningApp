@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jun 19 18:56:52 WAT 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\open\\Documents\\TJCODE\\SatConcepts ICT\\Projects\\afm\\AccountOpeningApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\113
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,61 @@
+<resources>
+  <string name="app_name">Account Opening</string>
+  <string name="staff_login">Staff Login</string>
+  <string name="dashboard">Dashboard</string>
+  <string name="pnv">Phone number verification</string>
+  <string name="ahis">Account History</string>
+  <string name="c_sign">Capture Signature</string>
+  <string name="external_dir">GetSignature</string>
+  <string name="g_sign">Get Signature</string>
+  <string name="next">Next</string>
+  <string name="upload">Upload</string>
+  <string name="fupload">File Upload</string>
+  <string name="vimg">View Image</string>
+  <string name="tpic">Take Picture</string>
+  <string name="selGal">Select From Gallery</string>
+  <string name="logErr">Please enter Staff ID and Password</string>
+  <string name="logErr1">Incorrect Staff ID and Password</string>
+  <string name="phErr">Please Enter Phone Number</string>
+  <string name="otpErr">Please Enter Correct OTP</string>
+  <string name="fnameeror">First Name Required!</string>
+  <string name="lnameeror">Last Name Required!</string>
+  <string name="doberor">Date of birth Required!</string>
+  <string name="mmneror">Mother\'s Maiden Name Required!</string>
+  <string name="addtypeErr">Please Select Address Type</string>
+  <string name="proErrN">Please Select New Province</string>
+  <string name="proErrO">Please Select Old Province</string>
+  <string name="sErrO">Please Select Old Street</string>
+  <string name="sErrN">Please Select New Street</string>
+  <string name="cityErrN">Please Select New City</string>
+  <string name="cityErrO">Please Select Old City</string>
+  <string name="noofyearsErr">Please Select No of Years</string>
+
+  <string-array name="file_type">
+    <item>Passport</item>
+    <item>Utility Bill</item>
+    <item>Signature</item>
+  </string-array>
+
+  <string name="country_prompt">Select Address Type</string>
+
+  <string-array name="add_type">
+    <item>Select Address Type</item>
+    <item>Home</item>
+    <item>Office</item>
+    <item>Others</item>
+  </string-array>
+
+  <string-array name="province">
+    <item>Select Province</item>
+    <item>Bo</item>
+    <item>Bombali</item>
+    <item>Bonthe</item>
+    <item>Kailahun</item>
+    <item>Kambia</item>
+    <item>Kenema</item>
+    <item>Koinadugu</item>
+    <item>Kono</item>
+    <item>Moyamba</item>
+  </string-array>
+
+</resources>

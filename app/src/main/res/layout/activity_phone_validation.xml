@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sleonegtb.accountopeningapp.PhoneValidation">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="30dp"
+        app:cardCornerRadius="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pnv"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="One Time Password will be sent to this number"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/errorBar"
+                android:visibility="gone"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/errorbg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/phErr"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/phone_no"
+                android:inputType="phone"
+                android:background="@drawable/edittextstyle"
+                android:hint="Phone Number"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:id="@+id/errorBar1"
+                android:visibility="gone"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/errorbg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/otpErr"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/otp_box"
+                android:inputType="number"
+                android:background="@drawable/edittextstyle"
+                android:visibility="gone"
+                android:hint="Enter OTP"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/send_otp"
+                android:background="@drawable/buttonstyle"
+                android:text="Send OTP"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/val_otp"
+                android:visibility="gone"
+                android:background="@drawable/buttonstyle"
+                android:text="Validate OTP"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/tv_response"
+                android:layout_marginTop="35dp"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

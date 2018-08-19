@@ -1,0 +1,4 @@
+#Tue Jun 19 09:45:54 WAT 2018
+base.0=C\:\\Users\\open\\Documents\\TJCODE\\SatConcepts ICT\\Projects\\afm\\AccountOpeningApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\105
+path.0=classes.dex
+renamed.0=classes.dex
